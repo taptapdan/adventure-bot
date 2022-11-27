@@ -4,6 +4,7 @@ export * from './gameState';
 export * from './handleInventory';
 export * from './handleRoom';
 export * from './handleTurn';
+export * from './imagePath';
 export * from './parseGame';
 export * from './parseGameState';
 export * from './parseGameTurnType';

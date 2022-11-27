@@ -1,9 +1,4 @@
-import { gameRoomsLost } from '@/game';
-
-function imagePath(imgName: string) {
-  const imagesPath = `${process.env.REPO_URL}/raw/master/public/game`;
-  return `${imagesPath}/${imgName}`;
-}
+import { gameRoomsLost, imagePath } from '@/game';
 
 export function renderGameStateLost() {
   const textRoom = gameRoomsLost.text.trim();

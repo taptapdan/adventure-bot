@@ -1,9 +1,4 @@
-import { GameState, gameItems, gameRooms } from '@/game';
-
-function imagePath(imgName: string) {
-  const imagesPath = `${process.env.REPO_URL}/raw/master/public/game`;
-  return `${imagesPath}/${imgName}`;
-}
+import { GameState, gameItems, gameRooms, imagePath } from '@/game';
 
 export function renderRoom(gameState: GameState, isValidAction = true) {
   const roomId = gameRooms[gameState.room] ? gameState.room : 1;
