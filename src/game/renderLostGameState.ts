@@ -4,7 +4,7 @@ export function renderGameStateLost() {
   const textRoom = gameRoomsLost.text.trim();
 
   const room =
-    `<img src="${imagePath('GameDivStory.png')}" />` +
+    `<img src="${imagePath('GameDivLost.png')}" />` +
     '\n\n' +
     textRoom +
     '\n\n' +

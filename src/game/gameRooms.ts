@@ -37,7 +37,24 @@ export const ROOM_START = 1;
 
 export const gameRoomsLost: GameRoom = {
   id: 0,
-  text: ``,
+  text: `
+  <p>
+    <b>Your surroundings begin to blur.</b> The blur turns to darkness. You're
+    unsure where you're going or where you came from. You're alone. All there is
+    is nothingness. Until you feel a tap on the shoulder. You spin around.
+  </p>
+  <p>
+    "I'm sorry, but your adventure has come to an unexpected end," comes a voice
+    from the nothing. "I was saving the game state within the original post but
+    it seems to have gotten lost. I'd guess it's somewhere here in the nothing,
+    but once something ends up in the nothing, nothing gets back out."
+  </p>
+  <p>
+    "Management says that if you'd like to start your adventure over again, you
+    can do so by creating a new issue. Whatever that means. Management says a
+    lot of things I don't quite understand."
+  </p>
+  `,
 };
 
 export const gameRooms: GameRooms = {
