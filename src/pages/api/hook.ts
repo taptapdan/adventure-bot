@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { octoAuth } from '@/github';
-import { Response, sendResponse } from '@/server';
+import { Response, requireEnv, sendResponse } from '@/server';
 import {
   ROOM_INTRO,
   Turn,
@@ -11,12 +11,7 @@ import {
   updateBodyWithGameState,
 } from '@/game';
 
-const requiredEnv = ['REPO_URL', 'GITHUB_APP_ID', 'GITHUB_PRIVATE_KEY'];
-requiredEnv.forEach((env) => {
-  if (!process.env.hasOwnProperty(env)) {
-    console.error(`${env} must be set.`);
-  }
-});
+requireEnv(['REPO_URL', 'GITHUB_APP_ID', 'GITHUB_PRIVATE_KEY']);
 
 export default async function handler(
   req: NextApiRequest,
