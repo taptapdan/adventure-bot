@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { log } from './log';
+import { log } from '@/server';
 
 export type Response = {
   message: string;

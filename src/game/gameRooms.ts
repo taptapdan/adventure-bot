@@ -18,7 +18,7 @@
  * they play the game.
  */
 
-import { GameItem } from './gameItems';
+import { GameItem } from '@/game';
 
 export type GameRoom = {
   id: number;

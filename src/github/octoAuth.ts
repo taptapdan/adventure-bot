@@ -6,7 +6,7 @@
 import { NextApiRequest } from 'next';
 import { Octokit } from '@octokit/core';
 import { createAppAuth } from '@octokit/auth-app';
-import { octoParse } from './octoParse';
+import { octoParse } from '@/github';
 
 export async function octoAuth(req: NextApiRequest) {
   const { installationId, owner, repo, action, issue, comment } =
