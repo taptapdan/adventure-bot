@@ -1,16 +1,11 @@
-# pulse
+# taptapbot
 
 <p style="text-align: center" align="center">
-  <img src="docs/imgs/thumbs-up.gif" alt="" />
+  <img src="public/taptapbot.jpg" alt="" width="400" />
 </p>
-
-## Features
-
-- [x] [Next.js](https://nextjs.org)
-- [x] [Tailwind CSS](https://tailwindcss.com)
 
 ## Development
 
-### Tailwind CSS Intellisense
-
-[Tailwind CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) enhances the Tailwind development experience by providing Visual Studio Code users with advanced features such as autocomplete, syntax highlighting, and linting.
+- Grab the app private key from https://github.com/settings/apps/taptapbot
+- Place `GITHUB_SECRET_KEY="..."` into `.env.local`. Replace any newlines with `\n`.
+- When adding `GITHUB_SECRET_KEY` environment variable on Vercel, do not replace newlines.
