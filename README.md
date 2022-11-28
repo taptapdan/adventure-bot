@@ -25,3 +25,7 @@
 ## Deploying to Vercel
 
 - When adding `GITHUB_SECRET_KEY` environment variable on Vercel, do not replace newlines.
+
+## Credits
+
+- [Game Icons](https://game-icons.net/), is licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
