@@ -21,6 +21,9 @@
     - Grab the private key from Settings > Developer Settings > GitHub Apps > Edit > General > Private Keys.
     - Example: https://github.com/settings/apps/taptapbot
     - Replace any newlines in the private key with `\n`.
+- `yarn dev`
+- `yarn ngrok`
+  - Update your GitHub App's Webhook URL to `http://{your-ngrok-domain.io}/api/hook`.
 
 ## Deploying to Vercel
 
