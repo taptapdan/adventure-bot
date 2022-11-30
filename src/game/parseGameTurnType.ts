@@ -9,11 +9,13 @@ export enum Turn {
   TURN,
   SPY,
   BOT,
+  CLOSED,
 }
 
 export function parseGameTurnType(body: any) {
   const { action, issue, comment } = body;
 
+  const isClosed = issue.state === 'closed';
   const isIssueComment = action === 'created' && issue && comment;
   const isIssueOpened = action === 'opened' && issue && !comment;
 
@@ -30,7 +32,8 @@ export function parseGameTurnType(body: any) {
   const commentUser = comment?.user.login;
   const isUsersGame = issueUser === commentUser;
 
-  if (isBot) return Turn.BOT;
+  if (isClosed) return Turn.CLOSED;
+  else if (isBot) return Turn.BOT;
   else if (isIssueComment && !isUsersGame) return Turn.SPY;
   else if (isIssueComment && isUsersGame) return Turn.TURN;
   else if (isIssueOpened) return Turn.NEW;

@@ -34,6 +34,9 @@ export default async function handler(
     case Turn.UNKNOWN:
       return sendResponse(req, res, `Bot does not handle turn type.`);
 
+    case Turn.CLOSED:
+      return sendResponse(req, res, 'Bot does not response to closed.');
+
     case Turn.BOT:
       return sendResponse(req, res, 'Bot does not respond to bots.');
 
