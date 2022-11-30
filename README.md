@@ -4,8 +4,14 @@
 - Play within GitHub Issues.
 - Runs as a GitHub App, using the GitHub SDK, GitHub Webhooks, and Node.
 
-<p style="text-align: center" align="center">
-  <img src="public/taptapbot.jpg" alt="" width="400" />
+## Play!
+
+You can play by clicking the link:
+
+<p align="center">
+  <a href="https://github.com/taptapdan/taptapdan/issues/new">
+    <img src="public/game/StartButton.png" alt="Start a Game" />
+  </a>
 </p>
 
 ## Development
