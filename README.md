@@ -49,3 +49,4 @@ You can play by clicking the link:
 ## Credits
 
 - [Game Icons](https://game-icons.net/) is licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
+- [The Dragon of Wantley](https://www.google.com/books/edition/The_Dragon_of_Wantley/CPUtAAAAYAAJ), by Owen Wister, 1892
