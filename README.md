@@ -39,8 +39,7 @@ You can play by clicking the link:
   </a>
 </p>
 
-- You'll need to [Create a GitHub App](https://docs.github.com/en/developers/apps/
-  building-github-apps/creating-a-github-app) for your own deploy of adventure-bot.
+- You'll need to [Create a GitHub App](https://docs.github.com/en/developers/apps/building-github-apps/creating-a-github-app) for your own deploy of adventure-bot.
   - Webhook URL: `https://{your-domain}/api/hook`
 - After deploying, add Environment Variables (Project > Settings > Environment Variables).
   - `REPO_URL` is the URL of your cloned adventure-bot repo.
