@@ -17,14 +17,26 @@
   - Update `GITHUB_APP_ID="..."` with the GitHub App ID.
     - Grab the ID from Settings > Developer Settings > GitHub Apps > Edit > General > About.
     - Example: https://github.com/settings/apps/taptapbot
-  - Update `GITHUB_SECRET_KEY="..."` with the GitHub App private key. 
+  - Update `GITHUB_SECRET_KEY="..."` with the GitHub App private key.
     - Grab the private key from Settings > Developer Settings > GitHub Apps > Edit > General > Private Keys.
     - Example: https://github.com/settings/apps/taptapbot
     - Replace any newlines in the private key with `\n`.
 
 ## Deploying to Vercel
 
-- When adding `GITHUB_SECRET_KEY` environment variable on Vercel, do not replace newlines.
+<p align="center">
+  <a href="https://vercel.com/new/clone?repository-url=https://github.com/taptapdan/adventure-bot">
+    <img src="https://vercel.com/button" alt="Deploy with Vercel">
+  </a>
+</p>
+
+- You'll need to [Create a GitHub App](https://docs.github.com/en/developers/apps/
+  building-github-apps/creating-a-github-app) for your own deploy of adventure-bot.
+  - Webhook URL: `https://{your-domain}/api/hook`
+- After deploying, add Environment Variables (Project > Settings > Environment Variables).
+  - `REPO_URL` is the URL of your cloned adventure-bot repo.
+  - `GITHUB_APP_ID` and `GITHUB_SECRET_KEY` from your GitHub App developer settings.
+  - When adding `GITHUB_SECRET_KEY` environment variable on Vercel, do not replace newlines.
 
 ## Credits
 
