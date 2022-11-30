@@ -8,17 +8,59 @@ export default function Home() {
         <title>shall we play a game?</title>
       </Head>
 
-      <div className="grid h-screen place-items-center">
-        <div className="relative">
-          <Image
-            className="rounded-2xl max-w-5xl"
-            src="/taptapbot.jpg"
-            alt=""
-            width={3840}
-            height={2160}
-          />
-          <div className="absolute bottom-0 right-0 mx-6 my-6 p-6 bg-gray-100 rounded-2xl text-2xl">
-            shall we play a game?
+      <div className="h-screen grid place-items-center">
+        <div className="grid grid-cols-2 place-items-center max-w-7xl space-x-6">
+          <div>
+            <Image
+              className="rounded-2xl max-h-screen w-auto"
+              src="/TheDragonOfWantley.jpg"
+              alt=""
+              width={827}
+              height={1117}
+            />
+          </div>
+
+          <div className="text-center">
+            <h1 className="text-3xl">adventure bot</h1>
+            <p>A Choose Your Own Adventure Bot</p>
+
+            <p className="my-8">
+              <Image src="/game/GameDiv.png" alt="" width={1600} height={76} />
+            </p>
+
+            <p>
+              Played within GitHub Issues. Runs as a GitHub App, using the
+              GitHub SDK, GitHub Webhooks, and Node.
+            </p>
+
+            <p className="my-4">
+              <a
+                className="underline"
+                href="https://github.com/taptapdan/adventure-bot"
+              >
+                view code
+              </a>
+            </p>
+
+            <p className="my-8">
+              <a href="https://github.com/taptapdan/taptapdan/issues/new">
+                <Image
+                  src="/game/GameDiv.png"
+                  alt=""
+                  width={1600}
+                  height={76}
+                />
+              </a>
+            </p>
+
+            <p>
+              <a
+                className="py-3 px-5 bg-gray-800 hover:bg-gray-700 text-white rounded"
+                href="https://github.com/taptapdan/taptapdan/issues/new"
+              >
+                Play The Adventure!
+              </a>
+            </p>
           </div>
         </div>
       </div>

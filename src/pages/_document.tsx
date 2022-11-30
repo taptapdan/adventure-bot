@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
   return (
-    <Html className="h-full bg-gray-100 text-gray-800">
+    <Html className="h-full bg-gray-100 text-gray-800 px-10">
       <Head>
         <link
           href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400&display=swap"
