@@ -10,7 +10,7 @@ You can play by clicking the link:
 
 <p align="center">
   <a href="https://github.com/taptapdan/taptapdan/issues/new">
-    <img src="public/game/StartButton.png" alt="Start a Game" />
+    <img src="public/game/StartButton.svg" alt="Play The Adventure!" />
   </a>
 </p>
 
