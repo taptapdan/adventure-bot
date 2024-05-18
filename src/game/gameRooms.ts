@@ -39,20 +39,24 @@ export const gameRoomsLost: GameRoom = {
   id: 0,
   text: `
   <p>
-    <b>Your surroundings begin to blur.</b> The blur turns to darkness. You're
-    unsure where you're going or where you came from. You're alone. All there is
-    is nothingness. Until you feel a tap on the shoulder. You spin around.
+    <b>Your surroundings begin to shimmer and blur, melting into an inky
+    darkness.</b> You can't remember where you were or how you got here. The
+    void is all-consuming, and you're utterly alone. The silence is thick,
+    almost tangible. But then, a tap on your shoulder sends a jolt through you.
+    You whirl around.
   </p>
   <p>
-    "I'm sorry, but your adventure has come to an unexpected end," comes a voice
-    from the nothing. "I was saving the game state within the original post but
-    it seems to have gotten lost. I'd guess it's somewhere here in the nothing,
-    but once something ends up in the nothing, nothing gets back out."
+    "I'm sorry, but your adventure has come to an unexpected end," a disembodied
+    voice intones from the abyss. "I was saving the game state within the
+    original post, but it seems to have drifted into the void. And once
+    something ends up in the void, well, nothing ever comes back."
   </p>
   <p>
-    "Management says that if you'd like to start your adventure over again, you
-    can do so by creating a new issue. Whatever that means. Management says a
-    lot of things I don't quite understand."
+    The voice pauses, as if pondering the mysteries of the universe. "Management
+    says that if you'd like to begin anew, you can do so by
+    <a href="${process.env.GAME_URL}/issues/new">creating a new issue</a>.
+    Whatever that means. Management often speaks in riddles I can't quite
+    decipher."
   </p>
   `,
 };
