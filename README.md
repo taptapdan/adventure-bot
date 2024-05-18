@@ -9,7 +9,7 @@
 You can play by clicking the link:
 
 <p align="center">
-  <a href="https://github.com/taptapdan/taptapdan/issues/new">
+  <a href="https://github.com/taptapdan/adventure-bot-play/issues/new">
     <img src="public/game/StartButton.svg" alt="Play The Adventure!" />
   </a>
 </p>
@@ -19,14 +19,14 @@ You can play by clicking the link:
 - Copy `.env.example` to `.env.local`.
 - Update `.env.local`
   - Update `REPO_URL="..."` with the repository URL.
-    - Example: `https://taptapdan.github.com/adventure-bot`.
+    - Example: `https://github.com/taptapdan/adventure-bot`.
   - Update `GITHUB_APP_ID="..."` with the GitHub App ID.
     - Grab the ID from Settings > Developer Settings > GitHub Apps > Edit > General > About.
     - Example: https://github.com/settings/apps/taptapbot
-  - Update `GITHUB_SECRET_KEY="..."` with the GitHub App private key.
+  - Update `GITHUB_SECRET_KEY="-----BEGIN PRIVATE KEY-----\n..."` with the GitHub App private key.
     - Grab the private key from Settings > Developer Settings > GitHub Apps > Edit > General > Private Keys.
     - Example: https://github.com/settings/apps/taptapbot
-    - Replace any newlines in the private key with `\n`.
+    - Hint: Replace any newlines in the private key with `\n`.
 - `yarn dev`
 - `yarn ngrok`
   - Update your GitHub App's Webhook URL to `http://{your-ngrok-domain.io}/api/hook`.
