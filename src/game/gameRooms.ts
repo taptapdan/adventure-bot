@@ -18,7 +18,7 @@
  * they play the game.
  */
 
-import { GameItem } from '@/game';
+import { GameItem, imagePath } from '@/game';
 
 export type GameRoom = {
   id: number;
@@ -62,6 +62,9 @@ export const gameRoomsLost: GameRoom = {
 };
 
 export const gameRooms: GameRooms = {
+  /**
+   * INTRODUCTION
+   */
   0: {
     id: 0,
     text: `
@@ -73,10 +76,23 @@ export const gameRooms: GameRooms = {
       1: 'If you decide to play the game',
     },
   },
+
+  /**
+   * AROUND THE TABLE
+   */
   1: {
     id: 1,
     text: `
-<b>Welcome, traveller.</b> It's been a long journey and you are in need of rest.
+      <p>As the sun dips below the horizon, casting long shadows on the quiet streets, you arrive at your friend's house, a sense of anticipation thrumming in your veins. It's Friday evening, and the night is ripe for Dungeons & Dragons. Your backpack is a treasure chest of essentials: your meticulously crafted character sheet, a clinking hoard of dice, and an arsenal of snacks. You’re primed to journey into realms unknown.</p>
+      <p>Stepping into the house, you're greeted by a cacophony of voices and the warm glow of camaraderie. Your friends are already gathered around the table, eyes gleaming with excitement. Mike, the omnipotent game master, is orchestrating the final touches of tonight's saga. Sarah and Dave are lost in the personas of their characters, eagerly awaiting the adventure ahead.</p>
+      <p>You settle into your seat, unveiling your character sheet with a flourish. Tonight, you are Arthas, a level 3 wizard and master illusionist, whose deft command of the arcane can twist reality and beguile the senses. The thrill of the impending adventure courses through you as Mike begins to weave the tale.</p>
+      <p>He conjures a world teetering on the edge of oblivion, menaced by a malevolent sorcerer with dark ambitions of domination. The weight of destiny falls upon your group; only you and your companions can thwart this dire threat. The quest is clear: seek out the sorcerer and vanquish him before his shadow engulfs all.</p>
+      <p>As the story unfolds, you are drawn deeper into the game’s tapestry. The lines between reality and fantasy blur. Your illusions sow chaos among your foes, and each victory sends a surge of exhilaration through you. Arthas’ cunning and your own merge seamlessly; you are no longer just a player but a hero within this world.</p>
+      <p>But as the night deepens, an odd sensation tugs at the edges of your awareness. It’s subtle at first, a whisper of something amiss. Yet it grows insistent, a strange pull that defies reason. Dismissing it as the vividness of your imagination, you press on. However, the pull becomes undeniable, wrapping around you like tendrils of the very illusions you command.</p>
+      <p>And then, it happens. The game’s reality and your own converge in a dizzying whirl. You’re no longer just guiding Arthas; you’re being drawn into his world. The boundary between player and character dissolves, and you realize with a jolt of awe and trepidation: you are being pulled into the game world for real.</p>
+      <p align="center">
+        <img src="${imagePath('IllustrationAroundTheTable.jpg')}" alt="" />
+      </p>
     `,
     options: {
       2: 'If you decide to rest',
