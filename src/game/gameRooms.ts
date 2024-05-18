@@ -151,8 +151,49 @@ export const gameRooms: GameRooms = {
       </p>
 `,
     options: {
-      1: 'Start over.',
+      6: 'If you remain hidden within the wagon',
+      7: 'If you attempt to escape undetected'
     },
   },
+
+  // TODO 5
+
+  /**
+   * REMAIN WITHIN THE WAGON
+   */
+  6: {
+    id: 6,
+    text: `
+      <p>As the lumbering ogre carries the wagon toward its encampment, you and your companions huddle in silence, concealed within its wooden confines. Every creak and jostle threatens to betray your presence, yet the creature remains preoccupied with its burden, oblivious to your stealthy intrusion.</p>
+      <p>Time crawls by like a wounded beast as the ogre trudges onward, the distant sounds of raucous laughter and guttural shouts heralding your approach to the heart of the ogre encampment. With a resounding thud, the wagon is deposited among its brethren, and you hold your breath, praying to escape their notice.</p>
+      <p>But fortune proves fickle, and a curious ogre peers into the wagon, its eyes widening with gleeful discovery. A chorus of excitement erupts among the brutish creatures as they gather around, their intentions all too clear.</p>
+      <p>Trapped like cornered prey, you and your companions are powerless as the ogres seize you, their rough hands dragging you from the wagon's sanctuary. Panic claws at your throat as you're hurled into a cauldron-sized pot, the sickening scent of cooking fires mingling with the acrid tang of fear.</p>
+      <p>With desperate cries echoing into the night, you thrash against your captors, but their grip is unyielding, their laughter a cruel symphony of impending doom. As the flames lick hungrily at your skin and the scent of roasting flesh fills the air, you realize with chilling finality that your adventure has reached its grisly conclusion. Trapped in the clutches of the ogres, your fate is sealed, and there's no heroism or magic to save you from becoming their next meal.</p>
+`,
+  },
+
+
+  /**
+   * SIGNPOSTS ALONG THE ROAD
+   */
+  7: {
+    id: 7,
+    text: `
+      <p>Emerging from the wagon’s shelter while the ogre's attention wanes, you and your companions find yourselves on a winding path that meanders through the depths of a dense forest. The towering trees loom overhead, their ancient boughs whispering secrets in the gentle breeze that caresses your skin.</p>
+      <p>Continuing along the path, your gaze is drawn to a sight that stirs both awe and trepidation—a castle, its silhouette rising majestically above the canopy like a sentinel guarding forbidden secrets.</p>
+      <p>Approaching cautiously, you spy a weathered sign warning of the castle's forbidding presence: "BEWARE! Evil Sorcerer's Castle Ahead." Another sign follows, its ominous message clear: "Enter at your own risk!" And yet another, bearing a final plea: "TURN BACK! You have been warned!"</p>
+      <p>The castle itself is a testament to ages long past, its formidable silhouette etched against the sky like a dark promise. Towering spires pierce the heavens, while thick stone walls stand as silent sentinels against the encroaching darkness. Every shadow seems to pulse with latent menace, every stone imbued with the weight of centuries-old secrets.</p>
+      <p>Standing before the imposing gates, a shiver of apprehension courses through you. Who would willingly call this gloomy fortress home? Doubt gnaws at the edges of your resolve, urging caution and second thoughts.</p>
+      <p>Should you brave the unknown depths of this foreboding castle, risking life and limb in pursuit of glory? Or heed the warnings and turn back, leaving the mysteries of the castle to slumber undisturbed? The choice hangs heavy in the air, a crossroads where bravery and prudence collide.</p>
+      <p align="center">
+        <img src="${imagePath('IllustrationCastle.jpg')}" alt="" />
+      </p>
+`,
+    options: {
+      8: 'If you heed the advice of the signs',
+      9: 'If you enter the castle gates'
+    },
+  },
+
 
 };
