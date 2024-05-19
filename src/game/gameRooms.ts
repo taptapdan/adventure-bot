@@ -248,4 +248,32 @@ export const gameRooms: GameRooms = {
       12: 'If you enter the green portal',
     },
   },
+
+  /**
+   * THE BLUE PORTAL
+   */
+  11: {
+    id: 11,
+    text: `
+      <p>After much deliberation, you and your companions opt for the blue portal. Stepping through the shimmering gateway, a surge of nervous excitement courses through you as you traverse the threshold. Emerging on the other side, you find yourselves back in Ethan's basement, seated once more around the D&D table.</p>
+      <p>Ethan continues to narrate the unfolding quest, seemingly unaware of your recent journey. It takes a moment for you to fully acclimate to the familiar surroundings. Glancing at Olive and Quentin, you sense their shared disorientation, their expressions mirroring your own bewilderment. It's as though they too experienced the otherworldly journey alongside you and are equally puzzled by your abrupt return.</p>
+      <p>As you grapple with the surreal events, life resumes its normal rhythm. Completing the D&D session with Ethan, you carry on with your day-to-day activities. Yet, the memory of the alternate world lingers, its mysteries tugging at the corners of your mind.</p>
+      <p>In the years that follow, conversations with Olive and Quentin frequently circle back to the shared adventure. Together, you endeavor to unravel the enigmas of the castle and contemplate the fate of the elusive sorcerer. While content in your return, you can't help but wonder about the untold adventures that awaited beyond the other portal, forever pondering the tantalizing possibilities of the unknown.</p>
+`,
+  },
+
+  /**
+   * THE GREEN PORTAL
+   */
+  12: {
+    id: 12,
+    text: `
+      <p>With resolve, you and your friends opt for the green portal, stepping into its verdant glow together. As the shimmering gateway envelops you, you find yourselves once more in Ethan's basement, encircling the D&D table while he narrates the ongoing quest. Yet, an unsettling disorientation grips you, leaving you feeling perplexed and adrift in this familiar yet alien setting.</p>
+      <p>Casting a glance at Olive and Quentin, you discern a shared sense of bewilderment mirrored in their expressions. Their silent exchange hints at a shared experience beyond the bounds of reality.</p>
+      <p>Amidst the confusion, a pang of hunger gnaws at your stomach. Turning to Ethan, you request permission to raid the snack stash. "Can we grab a snack?" you ask. Ethan nods, gesturing towards the fridge. "Sure, any cheese you’d like from the fridge," he replies.</p>
+      <p>"Cheese? I don’t want cheese," you respond, to which Ethan gives you a puzzled look. "What do you mean, you don't want cheese? You know that's all there is to eat ever since the sorcerer took over our world."</p>
+      <p>As Ethan's words sink in, a revelation dawns upon you. Recollections of the talking mice's warnings flood back—the sorcerer's cheese obsession, his plunge into the portals. It becomes clear: he has seized control of this world, and his reign has brought forth a singular culinary tyranny.</p>
+      <p>And to your dismay, you despise cheese.</p>
+`,
+  },
 };
