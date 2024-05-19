@@ -85,7 +85,7 @@ export const gameRooms: GameRooms = {
     id: 1,
     text: `
       <p>As the sun dips below the horizon, casting long shadows on the quiet streets, you arrive at your friend's house, a sense of anticipation thrumming in your veins. It's Friday evening, and the night is ripe for Dungeons & Dragons. Your backpack is a treasure chest of essentials: your meticulously crafted character sheet, a clinking hoard of dice, and an arsenal of snacks. You’re primed to journey into realms unknown.</p>
-      <p>Stepping into the house, you're greeted by a cacophony of voices and the warm glow of camaraderie. Your friends are already gathered around the table, eyes gleaming with excitement. Ethan, the omnipotent game master, is orchestrating the final touches of tonight's saga. Olivia and Aiden are lost in the personas of their characters, eagerly awaiting the adventure ahead.</p>
+      <p>Stepping into the house, you're greeted by a cacophony of voices and the warm glow of camaraderie. Your friends are already gathered around the table, eyes gleaming with excitement. Ethan, the omnipotent game master, is orchestrating the final touches of tonight's saga. Olive and Quentin are lost in the personas of their characters, eagerly awaiting the adventure ahead.</p>
       <p>You settle into your seat, unveiling your character sheet with a flourish. Tonight, you are Xander, a level 3 wizard and master illusionist, whose deft command of the arcane can twist reality and beguile the senses. The thrill of the impending adventure courses through you as Ethan begins to weave the tale.</p>
       <p>He conjures a world teetering on the edge of oblivion, menaced by a malevolent sorcerer with dark ambitions of domination. The weight of destiny falls upon your group; only you and your companions can thwart this dire threat. The quest is clear: seek out the sorcerer and vanquish him before his shadow engulfs all.</p>
       <p>As the story unfolds, you are drawn deeper into the game’s tapestry. The lines between reality and fantasy blur. Your illusions sow chaos among your foes, and each victory sends a surge of exhilaration through you. Xander’s cunning and your own merge seamlessly; you are no longer just a player but a hero within this world.</p>
@@ -108,7 +108,7 @@ export const gameRooms: GameRooms = {
     text: `
       <p>Suddenly, the world around you shimmers and fades, like a mirage giving way to a deeper reality. You blink, and when your eyes refocus, you find yourself not in your friend's house, but in the heart of the game world itself. Your friends are no longer just friends—they are now their characters, fully realized and vividly alive.</p>
       <p>Shock and confusion flood your senses, but there's no time to dwell on the surreal twist of fate. You quickly understand that to save this world, you must embrace your new reality. Drawing a deep breath, you steel yourself, heart pounding with a mix of fear and excitement. The quest to defeat the evil sorcerer is now more real than ever, and the stakes have never been higher.</p>
-      <p>Looking around, you find yourself in a dense thicket. The air is thick with the scent of pine and the rustle of unseen creatures. Olivia—now a fierce ranger—gestures toward a clearing up ahead, her keen eyes spotting something the rest of you have missed.</p>
+      <p>Looking around, you find yourself in a dense thicket. The air is thick with the scent of pine and the rustle of unseen creatures. Olive—now a fierce ranger—gestures toward a clearing up ahead, her keen eyes spotting something the rest of you have missed.</p>
       <p>"Over there," she whispers, her voice steady but laced with urgency. "We should check it out."</p>
 `,
     options: {
@@ -172,7 +172,6 @@ export const gameRooms: GameRooms = {
 `,
   },
 
-
   /**
    * SIGNPOSTS ALONG THE ROAD
    */
@@ -193,6 +192,25 @@ export const gameRooms: GameRooms = {
       8: 'If you heed the advice of the signs',
       9: 'If you enter the castle gates'
     },
+  },
+
+  /**
+   * TURN BACK
+   */
+  8: {
+    id: 8,
+    text: `
+      <p>As you and your companions turn away from the foreboding castle, a collective sigh of relief sweeps through your group. It dawns on you that facing the malevolent sorcerer and his arcane machinations might be a quest best left for another day. Heeding the warnings adorning the path, you opt to seek refuge and preparation before daring to confront such formidable adversaries.</p>
+      <p>Following the instincts honed by countless adventures in D&D, you set your sights on an inn where side quests await and opportunities to hone your skills beckon.</p>
+      <p>But fate, it seems, has other plans. A figure emerges along the path, an old man whose presence eluded your notice until now. "I've got a side quest for you," he declares, his voice laden with mystery and intrigue. Drawn by curiosity, you cautiously approach, wondering what trials lie in store.</p>
+      <p>Yet as you near the stranger, a noxious odor assaults your senses, a foul stench reminiscent of overripe Limburger cheese. Alarm bells clang in your mind, urging caution, but before you can react, it's too late.</p>
+      <p>In a whirl of dark magic, the old man sheds his disguise, revealing his true form—the malevolent sorcerer himself. With a sinister grin, he weaves a spell that twists and distorts your very being, reshaping you into something unrecognizable.</p>
+      <p>As the magic fades, you find yourself frozen in place, your body transformed into a silent sentinel—a sign, bearing ominous warnings of the sorcerer's domain. Your companions, too, have fallen prey to the sorcerer's curse, their forms now mere echoes of their former selves.</p>
+      <p>Olive's sign reads, “WARNING! The castle is off limits!”</p>
+      <p>And Quentin's, “THIEVES! There is no cheese to be found ahead.”</p>
+      <p>You glance down at the sign where your body once stood, reading the grim proclamation: “NOTICE! Trespassers will be punished!”</p>
+      <p>Trapped in this surreal nightmare, disbelief washes over you, mingling with a creeping sense of dread. You can only pray that someone will come to shatter the sorcerer's vile enchantment, freeing you from your wooden prison and restoring you to your true form. Until then, you stand as a silent testament to the sorcerer's twisted machinations, a pawn in his sinister game of magic and deceit.</p>
+`,
   },
 
 
