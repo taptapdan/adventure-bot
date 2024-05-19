@@ -156,7 +156,26 @@ export const gameRooms: GameRooms = {
     },
   },
 
-  // TODO 5
+  /**
+   * FACE THE DANGER
+   */
+  5: {
+    id: 5,
+    text: `
+      <p>As the trees surrounding the clearing sway and rustle, a palpable tension fills the air, signaling the imminent arrival of a formidable creature. With weapon in hand, you stand poised, ready to confront the enigmatic peril lurking within the shadows.</p>
+      <p>Abruptly, a dragon emerges from the dense foliage. Its form is sleek and sinuous, adorned with scales that shimmer in the moon's ethereal glow. Glowing orbs of fire serve as its eyes, while its maw bristles with razor-sharp teeth, a testament to its ferocious nature. With a serpentine grace, it slinks forth, its presence commanding respect and trepidation.</p>
+      <p>The heat radiating from its colossal frame leaves no doubt—this is no ordinary creature. As it fixates its gaze upon you and your companions, anticipation hangs thick in the air, each moment pregnant with uncertainty. With a subtle shift, it begins to part its jaws, poised to unleash its might upon you and your intrepid fellowship.</p>
+      <p align="center">
+        <img src="${imagePath('IllustrationDragon.jpg')}" alt="" />
+      </p>
+`,
+    options: {
+      13: 'If you harness your powers of illusion to confound the dragon',
+      14: 'If you engage in dialogue in hopes of fostering a peaceful resolution',
+    },
+  },
+
+  
 
   /**
    * REMAIN WITHIN THE WAGON
