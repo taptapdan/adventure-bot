@@ -348,4 +348,28 @@ export const gameRooms: GameRooms = {
       17: 'If you turn down the dragon\'s request',
     },
   },
+
+  /**
+   * UNFINISHED
+   */
+  16: {
+    id: 16,
+    text: `
+      <p><b>Your surroundings begin to shimmer and blur, melting into an inky darkness.</b> You can't remember where you were or how you got here. The void is all-consuming, and you're utterly alone. The silence is thick, almost tangible. But then, a tap on your shoulder sends a jolt through you. You whirl around.</p>
+      <p>"I'm sorry, but your adventure has come to an unexpected end," a disembodied voice intones from the abyss. "It appears this part of the adventure hasn't been written yet."</p>
+      <p>The voice pauses, as if pondering the mysteries of the universe. "Management says the story simply serves as a demonstration of the adventure bot and that there are parts of the story yet to be created. Whatever that means. Management often speaks in riddles I can't quite decipher."</p>
+    `,
+  },
+
+  /**
+   * UNFINISHED
+   */
+  17: {
+    id: 17,
+    text: `
+      <p><b>Your surroundings begin to shimmer and blur, melting into an inky darkness.</b> You can't remember where you were or how you got here. The void is all-consuming, and you're utterly alone. The silence is thick, almost tangible. But then, a tap on your shoulder sends a jolt through you. You whirl around.</p>
+      <p>"I'm sorry, but your adventure has come to an unexpected end," a disembodied voice intones from the abyss. "It appears this part of the adventure hasn't been written yet."</p>
+      <p>The voice pauses, as if pondering the mysteries of the universe. "Management says the story simply serves as a demonstration of the adventure bot and that there are parts of the story yet to be created. Whatever that means. Management often speaks in riddles I can't quite decipher."</p>
+    `,
+  },
 };
