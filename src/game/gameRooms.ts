@@ -152,7 +152,7 @@ export const gameRooms: GameRooms = {
 `,
     options: {
       6: 'If you remain hidden within the wagon',
-      7: 'If you attempt to escape undetected'
+      7: 'If you attempt to escape undetected',
     },
   },
 
@@ -190,7 +190,7 @@ export const gameRooms: GameRooms = {
 `,
     options: {
       8: 'If you heed the advice of the signs',
-      9: 'If you enter the castle gates'
+      9: 'If you enter the castle gates',
     },
   },
 
@@ -213,5 +213,39 @@ export const gameRooms: GameRooms = {
 `,
   },
 
+  /**
+   * OF MICE AND PORTALS
+   */
+  9: {
+    id: 9,
+    text: `
+      <p>As the castle gates creak open before you, a cacophony of voices drifts on the air, intermingling with raucous bursts of laughter, like the rolling waves crashing against the shores of mirth. It's as if a grand revelry is in full swing somewhere within the labyrinthine walls. Intrigued, you and your companions heed the call of curiosity, eager to uncover the source of the commotion.</p>
+      <p>Venturing deeper into the castle's depths, you traverse dimly lit corridors and ornate halls, the echoes of your footsteps a haunting cadence against the cold stone. At last, you stumble upon the origin of the lively chatter—a gathering of mice, their tiny forms clustered together in animated conversation.</p>
+      <p>The sight of the mice leaves you and your friends dumbfounded, while the tiny creatures seem equally taken aback by your presence. You approach the mice cautiously, your questions hanging in the air like unspoken spells. "Where is the sorcerer?" you inquire, hoping for answers amidst the unlikely company.</p>
+      <p>"Oh, him," one of the mice responds, its voice surprisingly robust for its diminutive size. "Been missing for years. Wandered off into one of them portals down in the basement. Takes you to other worlds, it does. But seems they don't bring you back here."</p>
+      <p>The revelation sparks a glimmer of hope amidst the uncertainty. Olive's voice rings out with newfound determination, "Perhaps one of these portals can lead us back home!"</p>
+`,
+    options: {
+      10: 'You ask the mice to show you the portals',
+    },
+  },
 
+  /**
+   * THE TWO PORTALS
+   */
+  10: {
+    id: 10,
+    text: `
+      <p>"We'd be delighted to assist! You see, that eccentric sorcerer had an obsession with cheese, and he left behind this enchanted cabinet that churns out cheese endlessly. We've established quite the operation and prefer to keep our clandestine affairs undisturbed by meddling humans. Hence the signs we've posted around the castle, warding off nosy townsfolk. So, we'll guide you to the portals, on one condition: you pledge to utilize one and maintain our secrecy."</p>
+      <p>With the mice as your guides, you and your companions descend into the depths of the castle, arriving at the basement where two portals stand sentinel. The portals emit a subtle hum, and your gaze flits between the shifting landscapes glimpsed through their ephemeral thresholds. Occasionally, both portals offer tantalizing views of your hometown, although discerning reality from illusion proves a challenge without stepping through.</p>
+      <p>One portal emanates a radiant azure hue, while its counterpart shimmers with a verdant emerald glow.</p>
+      <p align="center">
+        <img src="${imagePath('IllustrationPortals.jpg')}" alt="" />
+      </p>
+`,
+    options: {
+      11: 'If you enter the blue portal',
+      12: 'If you enter the green portal',
+    },
+  },
 };
