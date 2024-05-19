@@ -175,8 +175,6 @@ export const gameRooms: GameRooms = {
     },
   },
 
-  
-
   /**
    * REMAIN WITHIN THE WAGON
    */
@@ -294,5 +292,60 @@ export const gameRooms: GameRooms = {
       <p>As Ethan's words sink in, a revelation dawns upon you. Recollections of the talking mice's warnings flood back—the sorcerer's cheese obsession, his plunge into the portals. It becomes clear: he has seized control of this world, and his reign has brought forth a singular culinary tyranny.</p>
       <p>And to your dismay, you despise cheese.</p>
 `,
+  },
+
+  /**
+   * INVISIBILITY
+   */
+  13: {
+    id: 13,
+    text: `
+      <p>Summoning your arcane prowess, you cast an invisibility spell. Instantly, the dragon is thrown into confusion, its head snapping back and forth as it tries to pinpoint your now-hidden party. Seizing the moment, you and your friends silently slip away from the clearing, seeking refuge among the trees.</p>
+      <p>As you weave through the dense foliage, the spell begins to fade, and a cold realization strikes—you've lost Quinten! Panic surges as you and Olive retrace your steps, calling out in hushed, urgent tones. The forest remains silent, offering no clue to his whereabouts.</p>
+      <p>Back at the clearing's edge, your heart sinks at the sight before you. The dragon has encircled Quinten, its sinuous body and formidable tail creating an inescapable barrier. There's no longer any option for stealth or retreat. It's time to stand together and face the beast.</p>
+      <p>You and Olive exchange a determined glance, waiting for the perfect moment. With a nod, you use the abandoned wagon as a springboard, vaulting over the dragon's tail to land beside Quinten in the clearing's heart. United once more, you ready yourselves for the ultimate showdown with the mighty dragon.</p>
+    `,
+    options: {
+      14: 'You prepare for battle with the dragon',
+    },
+  },
+
+  /**
+   * NYGO
+   */
+  14: {
+    id: 14,
+    text: `
+      <p>“Quinten, look out!”</p>
+      <p>Rushing closer, you spot Quinten grinning ear to ear. “No need to worry,” he assures you, “the dragon’s friendly!”</p>
+      <p>“Of coursssse I’m friendly!” rumbles the dragon in a deep, serpentine voice. “I am Nygo, and it’s very nicccce to have found you here… all alone.” Nygo pauses, surveying the clearing with a grin that leaves you guessing at his true intentions. This being your first dragon encounter, you're left bewildered by the enigmatic smile.</p>
+      <p>Nygo continues, “What I mean is, I feared I might encounter the ogressss that roam this area. Nassss-ty, dissss-gusting brutessss. They have a taste for human. Quite lucky for you. Would have been a pity if the ogressss had gotten to you before me.”</p>
+      <p>When the dragon inquires about your presence, you explain your predicament. You and your friends hail from another world and were mysteriously transported here. Now, you seek a way back.</p>
+      <p>Nygo listens intently, then reveals, “I know of a powerful sssorcerer who possesses portals that allow travel to other worlds. I can take you to thisss sorcerer for help.”</p>
+      <p>Curiosity and hope mingle with the lingering wariness as you consider Nygo’s offer. Trusting a dragon wasn’t on your agenda, but the promise of a way home is too tempting to ignore.</p>
+    `,
+    options: {
+      15: 'Continue to listen',
+    },
+  },
+
+  /**
+   * NYGO OFFERS A QUEST
+   */
+  15: {
+    id: 15,
+    text: `
+      <p>Nygo informs you that he’s on a quest to retrieve a magical talisman he lost.</p>
+      <p>"The last place I remember having it wasss in thisss very clearing," Nygo says, his voice a deep, slithering melody. "Sssso, I returned to ssssearch for it."</p>
+      <p>"I mussst confessss, I feared I might encounter the ogresss that roam these landsss as I drew near. How relieved I am to find humansss rather than those brute beastsss!”</p>
+      <p>You and your friends join Nygo in his search, combing through the clearing, but the talisman is nowhere to be found.</p>
+      <p>"The sssstench of ogre lingersss here," Nygo mutters, his nostrils flaring. "No doubt they have ssstolen it, as they are prone to taking that which doesss not belong to them.”</p>
+      <p>With a beseeching look, Nygo turns to you. "I have obssserved your magical prowessss. Might you aid me in reclaiming my talisssman from the clutches of the ogresss?”</p>
+      <p>The promise of a new quest fills the air with excitement and intrigue. Helping a dragon retrieve a magical artifact from a band of ogres? It’s exactly the kind of adventure you’ve been yearning for.</p>
+    `,
+    options: {
+      16: 'If you aid the dragon',
+      17: 'If you turn down the dragon\'s request',
+    },
   },
 };
