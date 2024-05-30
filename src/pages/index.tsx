@@ -40,14 +40,7 @@ export default function Home() {
             </p>
 
             <p className="my-8">
-              <a href={`${process.env.GAME_URL}/issues/new`}>
-                <Image
-                  src="/game/GameDiv.png"
-                  alt=""
-                  width={1600}
-                  height={76}
-                />
-              </a>
+              <Image src="/game/GameDiv.png" alt="" width={1600} height={76} />
             </p>
 
             <p>
