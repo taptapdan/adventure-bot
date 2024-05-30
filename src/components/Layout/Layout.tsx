@@ -1,30 +1,12 @@
-// import { ReactElement, ReactNode, useState } from 'react';
-// import { Sidebar, SidebarButtonOpen, Main } from '@/components';
-
-// type Props = {
-//   children?: ReactNode;
-// };
-
-// export function Layout({ children }: Props) {
-//   const [sidebarOpen, setSidebarOpen] = useState(false);
-
-//   return (
-//     <div>
-//       <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
-
-//       <div className="flex flex-1 flex-col md:pl-64">
-//         <SidebarButtonOpen setSidebarOpen={setSidebarOpen} />
-
-//         <Main>{children}</Main>
-//       </div>
-//     </div>
-//   );
-// }
-
 import { ReactElement, ReactNode } from 'react';
+import type { NextPage } from 'next';
 
 type Props = {
   children?: ReactNode;
+};
+
+export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
+  layout?: (page: ReactElement) => ReactNode;
 };
 
 export function Layout({ children }: Props) {

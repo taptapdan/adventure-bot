@@ -19,7 +19,7 @@
  */
 
 import { GameItem } from '@/game';
-import { imagePath } from './imagePath'
+import { imagePath } from './imagePath';
 
 export type GameRoom = {
   id: number;
@@ -130,7 +130,7 @@ export const gameRooms: GameRooms = {
 `,
     options: {
       4: 'If you hide in the wagon',
-      5: 'If you stay and face the approaching danger'
+      5: 'If you stay and face the approaching danger',
     },
   },
 
@@ -345,7 +345,7 @@ export const gameRooms: GameRooms = {
     `,
     options: {
       16: 'If you aid the dragon',
-      17: 'If you turn down the dragon\'s request',
+      17: "If you turn down the dragon's request",
     },
   },
 
