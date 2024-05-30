@@ -34,16 +34,13 @@ export default function Home() {
             </p>
 
             <p className="my-4">
-              <a
-                className="underline"
-                href="https://github.com/taptapdan/adventure-bot"
-              >
+              <a className="underline" href={process.env.REPO_URL}>
                 view code
               </a>
             </p>
 
             <p className="my-8">
-              <a href="https://github.com/taptapdan/taptapdan/issues/new">
+              <a href={`${process.env.GAME_URL}/issues/new`}>
                 <Image
                   src="/game/GameDiv.png"
                   alt=""
@@ -56,7 +53,7 @@ export default function Home() {
             <p>
               <a
                 className="py-3 px-5 bg-gray-800 hover:bg-gray-700 text-white rounded"
-                href="https://github.com/taptapdan/taptapdan/issues/new"
+                href={`${process.env.GAME_URL}/issues/new`}
               >
                 Play The Adventure!
               </a>
