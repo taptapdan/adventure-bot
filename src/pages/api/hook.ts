@@ -10,6 +10,7 @@ import {
   renderRoom,
   updateBodyWithGameState,
 } from '@/game';
+import { octoVerifySignature } from '@/github/octoVerifySignature';
 
 requireEnv(['REPO_URL', 'GITHUB_APP_ID', 'GITHUB_PRIVATE_KEY']);
 
@@ -17,6 +18,17 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Response>,
 ) {
+  /**
+   * Verify signature
+   */
+  if (!octoVerifySignature(req)) {
+    return sendResponse(
+      req,
+      res,
+      `Couldn't match signature. Check that the GITHUB_WEBHOOK_SECRET env matches the secret you entered in your GitHub App.`,
+    );
+  }
+
   /**
    * Authenticate bot.
    */
