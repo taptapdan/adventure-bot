@@ -12,11 +12,17 @@ export async function octoAuth(req: NextApiRequest) {
   const { installationId, owner, repo, action, issue, comment } =
     octoParse(req);
 
+  // https://github.com/octokit/auth-app.js/issues/465
+  const privateKey = (process.env.GITHUB_PRIVATE_KEY || '').replace(
+    /\\n/g,
+    '\n',
+  );
+
   const app = new Octokit({
     authStrategy: createAppAuth,
     auth: {
       appId: process.env.GITHUB_APP_ID,
-      privateKey: process.env.GITHUB_PRIVATE_KEY,
+      privateKey,
       installationId,
     },
   });
