@@ -91,8 +91,16 @@ export default async function handler(
       await app.issueUpdate(issueBody);
 
       // Post comment with room message.
-      const { room: commentBody } = renderRoom(nextGameState, isValidAction);
+      const { room: commentBody, isEnding } = renderRoom(
+        nextGameState,
+        isValidAction,
+      );
       await app.commentPost(commentBody);
+
+      // If the player has reached an ending node, close the issue.
+      if (isEnding) {
+        await app.issueClose(app.issue.body);
+      }
 
       return sendResponse(req, res, 'Turn complete.');
     }

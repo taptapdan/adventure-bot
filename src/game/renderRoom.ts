@@ -77,7 +77,8 @@ export function renderRoom(gameState: GameState, isValidAction = true) {
     room =
       room +
       `<p align="right">` +
-      `<em>If you'd like to start over</em>,<br />turn to page <code>1</code>` +
+      `<em>If you'd like to start over</em>,<br />` +
+      `<a href="${process.env.GAME_URL}/issues/new">create a new issue</a>` +
       `</p>`;
   }
 
