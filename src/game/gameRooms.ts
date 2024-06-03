@@ -69,12 +69,19 @@ export const gameRooms: GameRooms = {
   0: {
     id: 0,
     text: `
-    <p><b>Welcome, traveller!</b></p>
-    <p>This is a placeholder for instructions on how to play the game.</p>
-    <p>Let's practice!</p>
+      <h3>Greetings, brave adventurer!</h3>
+      <p>Welcome to the enchanted Issues tab of this GitHub repository. Here you will embark on a journey like no other.</p>
+      <h3>How to Play</h3>
+      <ol>
+          <li><strong>Read the Story:</strong> Each comment from the adventure bot reveals a piece of the narrative.</li>
+          <li><strong>Make a Choice:</strong> At the end of each section, you will be presented with choices, each corresponding to a "page" number.</li>
+          <li><strong>Enter Your Choice:</strong> Type the number of the page you wish to turn to in a new comment and submit it.</li>
+          <li><strong>Continue Your Adventure:</strong> The adventure bot will respond, advancing the story based on your choice.</li>
+      </ol>
+      <p>Your decisions will guide you through a world filled with magic, mystery, and peril. Will you emerge as a hero, or will the shadows of fate consume you? The power to shape this epic lies in your hands.</p>
 `,
     options: {
-      1: 'Begin your adventure',
+      1: 'Begin your quest now and let the adventure unfold',
     },
   },
 
