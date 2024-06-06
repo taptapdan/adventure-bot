@@ -9,8 +9,8 @@ export default function Home() {
       </Head>
 
       <div className="h-screen grid place-items-center">
-        <div className="grid grid-cols-2 place-items-center max-w-7xl space-x-6">
-          <div>
+        <div className="grid md:grid-cols-2 grid-cols-1 place-items-center max-w-7xl space-x-6">
+          <div className="hidden md:block">
             <Image
               className="rounded-2xl max-h-screen w-auto"
               src="/TheDragonOfWantley.jpg"
